@@ -1,9 +1,9 @@
 # coding=utf-8
 import requests
 import unittest
-from test_case import sns_login
+from test_case import snsLogin
 
-header = sns_login
+header = snsLogin
 
 
 class SendMessageTest(unittest.TestCase):

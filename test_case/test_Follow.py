@@ -1,8 +1,8 @@
 import unittest
 import requests
-from test_case import sns_login
+from test_case import snsLogin
 
-header = sns_login
+header = snsLogin
 filename = "../data/userId.txt"
 with open(filename) as file_object:
     contest = file_object.read().splitlines()
